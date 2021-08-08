@@ -12,7 +12,7 @@ namespace Crud_MVC.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(DESKTOP-6CICVVM\SQLEXPRESS)\mssqllocaldb;Database=Crudmvc;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-6CICVVM\sqlexpress;Database=Crudmvc;Integrated Security=True");
         }
     }
 }
